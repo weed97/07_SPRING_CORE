@@ -13,7 +13,7 @@ public class Application {
 
       String[] beanNanmes = context.getBeanDefinitionNames();
         for (String beanName : beanNanmes) {
-            System.out.println("beanNAme : " + beanName);
+            System.out.println("beanName : " + beanName);
         }
 
         MemberDAO memberDAO = context.getBean("memberDAO", MemberDAO.class);

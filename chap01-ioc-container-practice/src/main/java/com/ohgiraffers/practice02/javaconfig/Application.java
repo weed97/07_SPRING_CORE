@@ -1,12 +1,18 @@
 package com.ohgiraffers.practice02.javaconfig;
 
-import org.springframework.context.annotation.Bean;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 
 public class Application {
 
     public static void main(String[] args) {
 
-        @Bean("board")
+        ApplicationContext context = new AnnotationConfigApplicationContext();
+
+
+
+
 
     }
 
