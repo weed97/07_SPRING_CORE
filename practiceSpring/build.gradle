@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm'
 }
 
 group = 'com.ohgiraffers'
@@ -23,12 +22,8 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
-
 }
 
 test {
     useJUnitPlatform()
-}
-kotlin {
-    jvmToolchain(17)
 }
