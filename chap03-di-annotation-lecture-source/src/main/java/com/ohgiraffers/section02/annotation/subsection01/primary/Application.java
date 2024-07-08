@@ -15,8 +15,8 @@ public class Application {
         // 스프링 컨텍스트에 등록된 같은타입의 bean이 3개나 있다는 뜻
         //exception single matching been but found
 
-        PokemonService poketmonService = context.getBean("pokemonServicePrimary", PokemonService.class);
+        PokemonService pokemeonService = context.getBean("pokemonServicePrimary", PokemonService.class);
 
-        poketmonService.pokemonAttack();
+        pokemeonService.pokemonAttack();
     }
 }

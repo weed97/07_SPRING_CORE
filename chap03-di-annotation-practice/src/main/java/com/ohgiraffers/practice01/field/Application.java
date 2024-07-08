@@ -18,7 +18,6 @@ public class Application {
 
         MemberController memberController =context.getBean("memberController",MemberController.class);
 
-
         System.out.println(memberController.selectMember());
 
 
